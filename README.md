@@ -8,14 +8,14 @@ This project is designed to process and analyze data. It uses data processing to
 - **Process/**: Folder containing the functions and dictionaries to use, separated by .py files
 - **Main.py**: File that executes all data processing
   
-## Requisitos
+## Requeriments
 
 To run the scripts in this project, make sure you have the following Python packages installed:
 
 - pandas
 - numpy
 
-Puedes instalar estos paquetes utilizando pip:
+You can install these packages using pip:
 
 ```bash
 pip install pandas numpy
