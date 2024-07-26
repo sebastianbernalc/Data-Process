@@ -23,9 +23,9 @@ pip install pandas numpy
 ```
 Aquí hay un ejemplo de un análisis con los datos:
 
-![Data to Analyze](images/Tabla_sin_depurar.png)
+![Data to Analyze](Images/Tabla_sin_depurar.png)
 
 As can be seen in the image, there are different fields in the table to be debugged, such as empty spaces, data out of range, negative values, among others. The result is the following:
 
-![Cleaned data](images/Tabla_depurada.png)
+![Cleaned data](Images/Tabla_depurada.png)
 
