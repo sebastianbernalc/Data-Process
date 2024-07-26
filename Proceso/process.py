@@ -1,9 +1,9 @@
 import pandas as pd
 from Proceso import tools, dictionary
+import matplotlib.pyplot as plt
 
 def proceso():
     df = pd.read_csv('./DataSets/dataset_1.csv', index_col=0)
-    print(df)
     df_clean = (
         df.pipe(tools.remove_negative_values, 'Edad')
         .pipe(tools.remove_negative_values, 'Ingresos')
@@ -21,7 +21,8 @@ def proceso():
         .pipe(tools.fill_na_value, 'Ingresos', df['Ingresos'].mean())
         .pipe(tools.fill_na_value, 'Altura', df['Altura'].mean())
     )
-    print(df_clean)
+    df_clean.to_excel('./DataSets/dataset_1_clean.xlsx', index=False)
+
     return df_clean
 
 
