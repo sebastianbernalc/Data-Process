@@ -21,7 +21,7 @@ Puedes instalar estos paquetes utilizando pip:
 pip install pandas numpy
 
 ```
-Aquí hay un ejemplo de un análisis con los datos:
+Here is an example of an analysis with the data:
 
 ![Data to Analyze](Images/Tabla_sin_depurar.png)
 
